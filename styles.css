@@ -1,8 +1,17 @@
 /*  your css code here. If applicable */
 th, td{
-	border: 2px solid grey;
+	border: 1px solid #ccc;
 	border-radius: 5px;
-	/* padding: 20px;
-	font-size:30px; */
+	padding: 0.5rem;
 	
 }
+
+tr:nth-child(odd){
+	background-color: #ffffff;
+}
+
+tr:nth-child(even){
+	background-color:#f2f2f2;;
+}
+
+
